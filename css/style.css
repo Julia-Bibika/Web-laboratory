@@ -1,0 +1,22 @@
+p {
+    font-family: Verdana;
+    font-size: 20px;
+}
+body{
+    background-image:url(https://thumb.tildacdn.com/tild6431-3937-4737-a430-396662363131/-/resize/824x/-/format/webp/background-3246124_1.jpg) ;
+}
+h1{
+    text-align: center;
+    font-style: normal;
+}
+h2{
+    text-align: center;
+    font-style: normal;
+}
+.imgCenter{
+    text-align:right;
+}
+li{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
