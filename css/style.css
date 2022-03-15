@@ -5,7 +5,7 @@ p {
 }
 body{
     margin: 0;
-    background-image:url(http://www.fonstola.ru/pic/201111/1920x1080/fonstola.ru-52654.jpg);
+    background-image:url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616423646_49-p-krasivii-temnii-fon-53.png);
 }
 h1{
     text-align: center;
@@ -17,10 +17,13 @@ h2{
     font-style: normal;
     color: rgb(247, 247, 247);
 }
+
 .imgCenter{
     text-align:right;
 }
 .films{
+    display: inline ;
+    margin-top: 10px;
     width: 100px;
     height: 150px;
 }
@@ -34,4 +37,70 @@ h2{
 }
 .footer{
     margin-top: auto;
+}
+input,textarea{
+    border: 1px solid #999999;
+    margin-top: 5px;
+}
+.contact_form h1,p{
+    text-align: center;
+}
+.contact_wrapper{
+    width: 753px;
+    margin: 0 auto;
+    color: rgb(31, 27, 27);
+}
+.contact_form h1{
+    color: rgb(58, 64, 146);
+    margin-bottom: 30px;
+}
+.contact_form{
+    padding: 100px 0 100px 0;
+}
+input{
+    width: 360px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+input:first-of-type{
+    margin-right: 24px;
+}
+.form_inputs{
+    margin-top: 100px;
+    display: flex;
+}
+textarea{
+    width: 100%;
+    height: 163px;
+}
+.button_block{
+    display:flex;
+    justify-content: flex-end;
+}
+input[type=submit]{
+    width: 165px;
+    height: 40px;
+    background: #31314e;
+    color: rgb(255, 255, 255);
+    margin-right: 0;
+    margin-top: 20px;
+}
+form p{
+    text-align: left;
+}
+.red{
+    color: rgb(179, 6, 6);
+}
+.menu-item{
+    list-style: none;
+    float: right;
+    margin-left: 20px;
+}
+a{
+    color: rgb(148, 148, 207);
+    font-size: large;
+}
+.searchText{
+    border-radius: 20px;
 }

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    margin-left: 35%;
+    margin-top:10%;
+}
+input{
+    height: 45px;
+    width: 100%;
+    color: #385983;
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #e9f2ff;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #C1D9FD;
+}
+.main{
+    background:#F1F5FE;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.form-title{
+    color:#305070;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+ /* .circle{
+    position: absolute;
+    z-index: 1;
+    width: 534px;
+    height: 534px;
+    border-radius: 50%;
+    background: #F7FAFF;
+    box-shadow: 0px 4px 70px 6px rgb(84, 99, 129);
+    animation-name: fadeCircle ;
+    animation-duration: .5s;
+    animation-timing-function:ease-in-out ; 
+    animation-delay:.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeCircle {
+    0% {
+        width:2543px ;
+        height:2543px ;
+    }
+    25%{
+        width:2000px ;
+        height:2000px ;
+    }
+    50%{
+        width:1500px ;
+        height:1500px ;
+    }
+    75%{
+        width:1000px ;
+        height:1000px ;
+    }
+    100%{
+        width: 534px; ;
+        height: 534px; ;
+    }
+}
+*/
+.register-form-container{
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+    max-width: 415px;
+    width: 100%; 
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgb(84, 99, 129);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    animation-name: fadeForm ;
+    animation-duration: .7s;
+    animation-timing-function:ease-in-out ; 
+    animation-delay:1.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeForm {
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: .25;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: .75;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.form-field{
+    margin-bottom: 13px;
+}
+.button{
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    background: #5e8acc;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase; 
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:#0D6CF2;
+}
+a.button{
+    text-decoration: none;
+}
+.button-google{
+    color: #C6CFDC;
+    background: #F2F6FF;
+}
+.button-google:hover{
+    color:#E2E6F0;
+    background: #fff
+}
+.divider{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #405d87;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

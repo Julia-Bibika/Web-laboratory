@@ -5,17 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
         <title>
            Актриса Анджеліна Джолі
         </title>
     </head>
     <body>
         <div class="page">
-            <header class="header"></header>
+            <header class="header">
+                <nav id="menu">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="login.html">Вхід</a></li>
+                        <li class="menu-item"><a href="registr.html">Регістрація</a></li>
+                        <li class="menu-item"><a href="Author.html">Про автора</a></li>
+                    </ul>
+                </nav>
+            </header>
         <main class="content">
+            <div class="search">
+                <input type="text" class="searchText" placeholder="search...">
+                <a class="searchBtn">
+                </a>
+            </div>
         <h1> Анджеліна Джолі </h1>
         <div class="imgCenter">
-        <img src="https://ss.metronews.ru/userfiles/materials/148/1485199/858x540.jpg" height="350" width="260" alt="Анджеліна Джолі">
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwRAJ3N8uoXt1hsjyDhL2PhH-9tfIr6xUckGyrxR6fAtc5LWFS" height="350" width="260" alt="Анджеліна Джолі">
         </div>
         <p>Анджелі́на Джолі́́ (<i>нар. 4 червня 1975, Лос-Анджелес США</i>) — американська акторка, фотомодель, режисерка, амбасадорка доброї волі ЮНІСЕФ.
         Дебютувала в кіно у 1982 році, зігравши роль у фільмі «У пошуках виходу».
@@ -57,7 +71,7 @@
             <td>2021</td>
         </tr>
     </table> 
-    <div>
+    <div class="films">
         <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTkoyCCxpgOklZUjLLluFUTxczFXd1yfgj-g-ToKiZjuCq7rPVP" weight = "250" height="300">
         <img src="https://upload.wikimedia.org/wikipedia/uk/4/43/Changeling_poster.jpg" weight = "250" height="300">
         <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/d/d2/Mr_and_mrs_smith_box_s.jpg/200px-Mr_and_mrs_smith_box_s.jpg" weight = "250" height="300">
@@ -78,9 +92,29 @@
         <strong>4</strong>.Першу любов Анджеліна зустріла у 14 років. Тоді її мама Маршелін Бертран дозволила хлопцеві жити з ними під одним дахом. Стосунки тривали два роки, а після розставання дівчина захопилася акторською майстерністю.<br>
         <strong>5</strong>.У зірки шестеро дітей, троє з яких всиновлені. Актриса не раз зізнавалася, що не хотіла власних нащадків, однак Бред Пітт вплинув на її рішення.
     </p>
+        <section class="contact_form">
+            <div class="contact_wrapper">
+                <h1>CONTACT FORM</h1>
+            <div class="line"></div>
+            <p>
+                TEXT
+            </p>
+                <form action="#"name="newform" method="post">
+                    <div class="form_inputs">
+                        <p>Name <span class="red">*</span><input type="text"></p>
+                        <p>Email address <span class="red">*</span><input type="text"></p>
+                    </div>
+                    <p>Message<span class="red">*</span></p>
+                    <textarea name="text"></textarea>
+                    <div class="button_block">
+                        <input type="submit" value="SEND">
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
-    <footer class="footer"><a href="Author.html" style="color: rgb(148, 148, 207);">Про автора</a></footer>
+    <footer class="footer"></footer>
     
 </div>
-    </body>
+</body>
 </html>
