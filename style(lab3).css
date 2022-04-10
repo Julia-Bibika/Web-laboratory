@@ -1,0 +1,58 @@
+.heading{
+background-color: rgba(25, 79, 110, 0.671);
+height: 90px;
+width: 50%;
+position: absolute;
+left: 0;
+top: 0;
+}
+.menu{
+background-color: rgba(25, 79, 110, 0.671);
+height: 90px;
+width: 50%;
+position: absolute;
+right: 0;
+top: 0;
+}
+.content{
+height: 422px;
+width: 55%;
+position: absolute;
+top: 90px;
+left: 0;
+}
+.dod_section{
+height: 422px;
+width: 45%;
+position: absolute;
+top: 90px;
+right: 0; 
+}
+.footer{
+background-color: rgba(25, 79, 110, 0.671);
+height: 90px;
+width: 100%;
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.menu-item {
+    list-style: none;
+    float: right;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 5px;
+}
+.text-heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 50%;
+}
+.img-align{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.img-position{
+    text-align: right;
+    margin-top: 5px;
+}
