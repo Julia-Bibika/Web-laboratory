@@ -1,0 +1,62 @@
+.container1{
+    display: flex;
+}
+.heading{
+    background-color: rgba(12, 24, 31, 0.671);
+    height: 90px;
+    width: 50%;
+    flex: 2;
+    }
+    .menu{
+    background-color: rgba(25, 79, 110, 0.671);
+    height: 90px;
+    width: 50%;
+    flex: 1;
+    }
+    .container2{
+        display: flex;
+        align-items: center;
+    }
+    .content{
+    background-color: rgba(126, 167, 190, 0.671);
+    height: 650px;
+    width: 55%;
+    flex: 3;
+    }
+    .dod_section{
+    background-color: rgba(79, 100, 112, 0.671);
+    height: 650px;
+    width: 45%;
+    flex: 1;
+    }
+    .container3{
+        display: flex;
+    }
+    .footer{
+    background-color: rgba(25, 79, 110, 0.671);
+    height: 90px;
+    width: 100%;
+    padding-top: 10px;
+
+    }
+    .menu-item {
+        list-style: none;
+        float: right;
+        margin-left: 20px;
+        margin-top: 25px;
+        padding: 5px;
+    }
+    
+    .text-heading{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 50%;
+    }
+    .img-align{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .img-position{
+        text-align: right;
+        margin-top: 5px;
+    } 
