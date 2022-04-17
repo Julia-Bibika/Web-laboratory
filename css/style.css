@@ -5,6 +5,7 @@ p {
 }
 body{
     margin: 0;
+    padding: 0;
     background-image:url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616423646_49-p-krasivii-temnii-fon-53.png);
 }
 h1{
@@ -34,6 +35,7 @@ h2{
 .footer{
     padding: 20px;
     background-color: rgba(32, 150, 204, 0.301);
+    height: 25px;
 }
 .footer{
     margin-top: auto;
@@ -78,6 +80,14 @@ textarea{
     display:flex;
     justify-content: flex-end;
 }
+.button_block:hover{
+    transform: scale(0.9);
+    transition-duration: 0.4s;
+}
+input[type = submit]:hover{
+    color: #0f1136;
+    transition-duration: 0.4s;
+}
 input[type=submit]{
     width: 165px;
     height: 40px;
@@ -97,10 +107,62 @@ form p{
     float: right;
     margin-left: 20px;
 }
+.menu-item:hover{
+        transform: scale(1.2);
+        transition-duration: 0.4s;
+}
+.menu-item > a:hover{
+    color: rgb(183, 183, 216);
+}
 a{
     color: rgb(148, 148, 207);
     font-size: large;
 }
-.searchText{
+.search-text{
+    border: none;
     border-radius: 20px;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(44, 37, 37);
+    font-size: 10px;
+    transform: 0.6s;
+    line-height: 40px;
+    width: 0px;
+    margin-bottom: 10px
+}
+.search{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 40px;
+    border: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-left: 8%;
+    top: 5%;
+}
+.search:hover > .search-text{
+    transform: 3s;
+    width: 240px;
+    padding:0.6px;
+    background: white;
+    transition-duration: 0.4s;
+}
+.search:hover > .search-btn{
+    background: rgb(29, 151, 189);
+
+}
+.search-btn{
+    color: #ffffff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: 0.5s;
 }

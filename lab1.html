@@ -3,18 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="./css/media-queries.css">
+        <script src="https://kit.fontawesome.com/03ee4e42f1.js" crossorigin="anonymous"></script>
         <title>
            Актриса Анджеліна Джолі
         </title>
+        <!--<script src="https://kit.fontawesome.com/03ee4e42f1.js" crossorigin="anonymous"></script>-->
     </head>
     <body>
+        <div class="wrapper">
         <div class="page">
             <header class="header">
                 <nav id="menu">
                     <ul class="menu">
+                        <form>
+                            <div class="search">
+                                <input type="text" class="search-text" placeholder="Search...">
+                                <a class="search-btn" href="#">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </div>
+                            </form>
                         <li class="menu-item"><a href="login.html">Вхід</a></li>
                         <li class="menu-item"><a href="registr.html">Регістрація</a></li>
                         <li class="menu-item"><a href="Author.html">Про автора</a></li>
@@ -22,11 +32,6 @@
                 </nav>
             </header>
         <main class="content">
-            <div class="search">
-                <input type="text" class="searchText" placeholder="search...">
-                <a class="searchBtn">
-                </a>
-            </div>
         <h1> Анджеліна Джолі </h1>
         <div class="imgCenter">
         <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwRAJ3N8uoXt1hsjyDhL2PhH-9tfIr6xUckGyrxR6fAtc5LWFS" height="350" width="260" alt="Анджеліна Джолі">
@@ -95,10 +100,11 @@
         <section class="contact_form">
             <div class="contact_wrapper">
                 <h1>CONTACT FORM</h1>
-            <div class="line"></div>
+            <div class="line">
             <p>
                 TEXT
             </p>
+        </div>
                 <form action="#"name="newform" method="post">
                     <div class="form_inputs">
                         <p>Name <span class="red">*</span><input type="text"></p>
@@ -115,6 +121,7 @@
     </main>
     <footer class="footer"></footer>
     
+    </div>
 </div>
 </body>
 </html>
