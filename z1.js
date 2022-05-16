@@ -56,8 +56,8 @@ class DAI {
     getByMark(someMark) {
         return this.cars.filter((elem) => elem.mark == someMark);
     }
-    getByTime(someNumber) {
-        return this.cars.filter((elem) => elem.number.substring(0,4) == someNumber);
+    getByNumber(someNumber) {
+        return this.cars.filter((elem) => elem.number.substring(0,someNumber.length) == someNumber);
     }
     getInfo(someId) {
         return this.getById(someId).ToString();
