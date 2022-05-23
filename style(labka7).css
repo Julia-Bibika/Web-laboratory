@@ -1,0 +1,103 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(106, 230, 133);
+}
+.wrapper{
+    width: 625px;
+    margin: 0 auto;
+}
+
+.slider-container{
+    overflow: hidden;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.slider-track{
+    height: 175px;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    transition: .2s;
+    left: 0;
+}
+.slide{
+    position: relative;
+    top: 20px;
+    border: 0;
+    border-radius: 6px;
+    height: 125px;
+    margin: 5px;
+}
+.w80px{
+    min-width:80px;
+}
+.w110px{
+    min-width:110px;
+}
+.w200px{
+    min-width:200px;
+}
+.black{
+    background-color:black;
+}
+.grey{
+    background-color: grey;
+}
+.lightgrey{
+    background-color: lightgrey;
+}
+.slider-buttons{
+    display: flex;
+}
+.btn-prev{
+    position: relative;
+    bottom: 115px;
+    right: 33px;
+    background-color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.25), 0 1px 1px rgba(0,0,0,0.22);
+    transition: all .2s;
+}
+.btn-prev:hover{
+    background-color: rgb(226, 224, 224);
+    transition-duration: 0.4s;
+}
+.btn-next:hover{
+    background-color: rgb(226, 224, 224);
+    transition-duration: 0.4s;
+}
+.btn-prev p{
+    position: relative;
+    top: -73px;
+    color: black;
+}
+.btn-next{
+    position: relative;
+    left: 88%;
+    bottom: 115px;
+    background-color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    width:50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.25), 0 1px 1px rgba(0,0,0,0.22);
+    transition: all .2s;
+}
+.btn-next p{
+    color: black;
+    position: relative;
+    top: -73px;
+}
