@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(216, 73, 73);
+}
+.wrapper{
+    width: 600px;
+    height: 325px;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 28%;
+}
+.menu{
+    margin-left: 30px;
+    padding-top: 40px;
+    border:0;
+    height: 20px;
+    width:500px;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.buttons button{
+    text-align: left;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 30px;
+    padding: 10px 5px 10px 5px;
+}
+.contentbutton{
+    width: 540px;
+    transition: all .2s;
+    margin: 1px 5px 2px 5px;
+}
+.contentbuttonDark{
+    background-color: rgb(241, 241, 241);
+}
+.contentbuttonDark:hover{
+    background-color: rgb(225, 225, 225);
+}
+#foodList{
+    position: relative;
+    top:10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+hr{
+    margin-top: 15px;
+}
